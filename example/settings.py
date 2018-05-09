@@ -14,6 +14,7 @@ BOT_NAME = 'example'
 SPIDER_MODULES = ['example.spiders']
 NEWSPIDER_MODULE = 'example.spiders'
 
+FEED_EXPORTERS={'excel':'example.my_exporters.ExcelItemExporter'}
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
